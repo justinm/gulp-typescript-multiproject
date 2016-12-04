@@ -154,7 +154,7 @@ export class GulpTypescriptMultiProject {
           }, this);
         });
 
-    };
+    }
   }
 
 }
