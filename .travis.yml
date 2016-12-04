@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+  - "6"
+  - "5"
+  - "4"
+
+before_script:
+  - npm install -g gulp codeclimate-test-reporter
+script:
+  - gulp build
+  - gulp test
+  - CODECLIMATE_REPO_TOKEN=$CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < test/coverage/lcov.info

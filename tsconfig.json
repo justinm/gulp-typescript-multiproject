@@ -1,0 +1,26 @@
+{
+  "parent": true,
+  "compilerOptions": {
+    "rootDir": "./",
+    "noImplicitAny": true,
+    "inlineSourceMap": true,
+    "noEmitOnError": true,
+    "target": "ES5",
+    "module": "commonjs",
+    "types": [
+      "gulp",
+      "gulp-util",
+      "through2",
+      "mocha"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "node_modules/@types",
+    "bower_components",
+    "test/compiling"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}

@@ -1,0 +1,7 @@
+atlassian-ide-plugin.xml
+*.iml
+*.ipr
+*.iws
+node_modules/
+test/coverage
+!gulpfile.js

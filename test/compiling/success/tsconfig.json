@@ -1,0 +1,14 @@
+{
+  "parent": true,
+  "compilerOptions": {
+    "rootDir": "./",
+    "noImplicitAny": true,
+    "inlineSourceMap": true,
+    "noEmitOnError": true,
+    "target": "ES5",
+    "module": "commonjs"
+  },
+  "include": [
+    "./*.ts"
+  ]
+}
