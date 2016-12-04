@@ -1,4 +1,3 @@
 "use strict";
 var multi_project_1 = require('./lib/multi-project');
 module.exports = multi_project_1.GulpTypescriptMultiProject;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsOEJBQXlDLHFCQUV6QyxDQUFDLENBRjZEO0FBRTlELGlCQUFTLDBDQUEwQixDQUFDIn0=
