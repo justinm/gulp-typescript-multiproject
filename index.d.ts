@@ -8,8 +8,8 @@ declare module "gulp-typescript-multiproject" {
 
 
     interface GulpTypescriptMultiProject {
-      build: () => ((err: Error[]) => stream.Transform);
-      clean: () => ((err: Error[]) => stream.Transform;
+      build: () => () => stream.Transform;
+      clean: () => () => stream.Transform;
     }
   }
 

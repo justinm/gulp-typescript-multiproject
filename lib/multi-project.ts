@@ -9,7 +9,6 @@ import * as fs from 'fs';
 import * as merge from 'merge2';
 let debug = require('gulp-debug');
 
-Error.stackTraceLimit = 40;
 export class GulpTypescriptMultiProject {
 
   constructor(private gulp: typeof gulpLib, private srcGlob: string[], private dest?: string) {
